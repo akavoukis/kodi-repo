@@ -24,14 +24,15 @@
 					</item>
 					<item>
 						<label>$LOCALIZE[13016]</label>
-						<onclick>Powerdown()</onclick>
-						<visible>System.CanPowerDown</visible>
+						<onclick>RunAddon("script.program.shutdown")</onclick>
+						<visible>yes</visible>
+						<!-- <visible>System.CanPowerDown</visible> -->
 					</item>
 					<item>
 						<label>$LOCALIZE[20150]</label>
-						<onclick>AlarmClock(shutdowntimer,Shutdown())</onclick>
+						<onclick>AlarmClock(shutdowntimer,RunAddon("script.program.shutdown"))</onclick>
 						<visible>!System.HasAlarm(shutdowntimer)</visible>
-						<visible>System.CanPowerDown | System.CanSuspend | System.CanHibernate</visible>
+						<!-- <visible>System.CanPowerDown | System.CanSuspend | System.CanHibernate</visible> -->
 					</item>
 					<item>
 						<label>$LOCALIZE[20151] $INFO[System.AlarmPos,(,)]</label>
