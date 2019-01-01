@@ -13,7 +13,7 @@
     </extension>
 </addon>
 
-<addon id="skin.estuary" version="9.0.0" name="Estuary" provider-name="phil65, kav">
+<addon id="skin.estuary" version="9.0.1" name="Estuary" provider-name="phil65, kav">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.program.shutdown"/>
