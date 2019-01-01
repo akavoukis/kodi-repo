@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="xbmc.repo.kav" name="kav's Add-on Repository" version="1.4" provider-name="kav">
+<addon id="xbmc.repo.kav" name="kav's Add-on Repository" version="1.5" provider-name="kav">
     <extension point="xbmc.addon.repository" name="kav's Add-on Repository">
-        <info>https://gitlab.com/akavoukis/kodi-repo/raw/master/repo/addons.xml</info>
-        <checksum>https://gitlab.com/akavoukis/kodi-repo/raw/master/repo/addons.xml.md5</checksum>
-        <datadir zip="true">https://gitlab.com/akavoukis/kodi-repo/tree/master/repo</datadir>
+        <info>https://raw.githubusercontent.com/akavoukis/kodi-repo/master/repo/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/akavoukis/kodi-repo/master/repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/akavoukis/kodi-repo/master/repo/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>kav's Add-on Repository</summary>
