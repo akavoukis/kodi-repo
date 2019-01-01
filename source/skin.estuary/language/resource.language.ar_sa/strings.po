@@ -1,7 +1,7 @@
 # Kodi Media Center language file
 # Addon Name: Estuary
 # Addon id: skin.estuary
-# Addon Provider: phil65, Ichabod Fletchman
+# Addon Provider: phil65, Piers
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
@@ -48,6 +48,14 @@ msgctxt "#31072"
 msgid "Power Options"
 msgstr "إعدادات الطاقه"
 
+msgctxt "#31081"
+msgid "Album info"
+msgstr "معلومات الألبوم "
+
+msgctxt "#31085"
+msgid "Channel Group"
+msgstr "مجموعة القناة"
+
 msgctxt "#31096"
 msgid "Local subtitle available"
 msgstr "تتوفر ترجمات محليه"
@@ -55,3 +63,7 @@ msgstr "تتوفر ترجمات محليه"
 msgctxt "#31100"
 msgid "Shift"
 msgstr "تغير"
+
+msgctxt "#31133"
+msgid "Hide"
+msgstr "إخف"

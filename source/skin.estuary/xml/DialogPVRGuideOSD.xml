@@ -3,13 +3,6 @@
 	<defaultcontrol always="true">11</defaultcontrol>
 	<controls>
 		<control type="group">
-			<animation effect="fade" start="0" end="100" time="100">WindowOpen</animation>
-			<animation effect="fade" start="100" end="0" time="100">WindowClose</animation>
-			<animation effect="fade" start="100" end="75" time="0" condition="true">Conditional</animation>
-			<visible>!Window.IsActive(fullscreenvideo)</visible>
-			<include>ColoredBackgroundImages</include>
-		</control>
-		<control type="group">
 			<depth>DepthOSD</depth>
 			<animation effect="fade" start="100" end="0" time="200" tween="sine" condition="$EXP[infodialog_active]">Conditional</animation>
 			<control type="group">
@@ -33,7 +26,7 @@
 						<control type="label">
 							<left>20</left>
 							<width>150</width>
-							<bottom>0</bottom>
+							<height>90</height>
 							<aligny>center</aligny>
 							<textcolor>grey</textcolor>
 							<label>$INFO[ListItem.StartTime]</label>
@@ -41,7 +34,7 @@
 						<control type="label">
 							<left>150</left>
 							<width>610</width>
-							<bottom>0</bottom>
+							<height>90</height>
 							<align>right</align>
 							<aligny>center</aligny>
 							<label>$INFO[ListItem.Label]</label>
@@ -51,7 +44,7 @@
 						<control type="image">
 							<left>0</left>
 							<width>780</width>
-							<bottom>0</bottom>
+							<height>90</height>
 							<texture colordiffuse="button_focus">lists/focus.png</texture>
 							<visible>Control.HasFocus(11)</visible>
 							<animation effect="fade" start="100" end="0" time="0">UnFocus</animation>
@@ -59,14 +52,14 @@
 						<control type="label">
 							<left>20</left>
 							<width>150</width>
-							<bottom>0</bottom>
+							<height>90</height>
 							<aligny>center</aligny>
 							<label>$INFO[ListItem.StartTime]</label>
 						</control>
 						<control type="label">
 							<left>150</left>
 							<width>610</width>
-							<bottom>0</bottom>
+							<height>90</height>
 							<align>right</align>
 							<aligny>center</aligny>
 							<label>$INFO[ListItem.Label]</label>

@@ -27,7 +27,7 @@
 			<control type="group">
 				<depth>DepthContentPanel</depth>
 				<include>OpenClose_Left</include>
-				<visible>Control.IsVisible(50) | Control.Isvisible(54) | [Control.IsVisible(501) + String.IsEqual(Skin.AspectRatio,2.37)]</visible>
+				<visible>Control.IsVisible(50) | Control.Isvisible(54) | [Control.IsVisible(501) + String.IsEqual(Skin.AspectRatio,21:9)]</visible>
 				<include>Visible_Left</include>
 				<include content="ContentPanel">
 					<param name="width" value="656" />
@@ -67,7 +67,7 @@
 					<control type="group">
 						<left>20</left>
 						<top>245</top>
-						<visible>ListItem.IsCollection + String.IsEmpty(ListItem.Plot)</visible>
+						<visible>ListItem.IsCollection</visible>
 						<include content="InfoList">
 							<param name="bottom" value="108" />
 							<param name="width" value="540" />
@@ -138,7 +138,7 @@
 						<include>MediaMenuItemsCommon</include>
 						<label>$LOCALIZE[31056]</label>
 						<onclick>ActivateWindow(videoplaylist)</onclick>
-						<visible>Integer.IsGreater(Playlist.Length(video),0)</visible>
+						<visible>IntegerGreaterThan(Playlist.Length(video),0)</visible>
 					</control>
 					<control type="button" id="621">
 						<description>Get more</description>

@@ -43,31 +43,31 @@
 			<ondown>12</ondown>
 			<pagecontrol>60</pagecontrol>
 			<scrolltime>200</scrolltime>
-			<itemlayout height="70" width="820">
+			<itemlayout height="70">
 				<control type="label">
 					<left>10</left>
-					<right>10</right>
 					<top>0</top>
-					<bottom>0</bottom>
+					<width>820</width>
+					<height>60</height>
 					<aligny>center</aligny>
 					<textcolor>grey</textcolor>
 					<label>$INFO[ListItem.Label]</label>
 				</control>
 			</itemlayout>
-			<focusedlayout height="70" width="820">
+			<focusedlayout height="70">
 				<control type="image">
 					<left>0</left>
 					<top>0</top>
-					<bottom>0</bottom>
-					<right>0</right>
+					<width>820</width>
+					<height>61</height>
 					<visible>Control.HasFocus(10)</visible>
 					<texture colordiffuse="button_focus">lists/focus.png</texture>
 				</control>
 				<control type="label">
 					<left>10</left>
 					<top>0</top>
-					<bottom>0</bottom>
-					<right>10</right>
+					<width>820</width>
+					<height>60</height>
 					<aligny>center</aligny>
 					<label>$INFO[ListItem.Label]</label>
 				</control>

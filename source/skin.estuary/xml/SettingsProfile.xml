@@ -74,6 +74,7 @@
 						<width>305</width>
 						<height>100</height>
 						<font>font10</font>
+						<textcolor>grey</textcolor>
 						<align>center</align>
 						<aligny>top</aligny>
 						<label>$LOCALIZE[31029]:</label>
@@ -84,6 +85,7 @@
 						<top>321</top>
 						<width>305</width>
 						<height>100</height>
+						<textcolor>grey</textcolor>
 						<font>font10</font>
 						<align>center</align>
 						<aligny>top</aligny>
@@ -192,9 +194,9 @@
 				<scrolltime>300</scrolltime>
 				<itemlayout height="90" width="470">
 					<control type="label">
-						<left>30</left>
-						<right>30</right>
-						<bottom>0</bottom>
+						<textoffsetx>30</textoffsetx>
+						<width>470</width>
+						<height>90</height>
 						<label>$INFO[ListItem.Label]</label>
 						<font>font37</font>
 						<aligny>center</aligny>
@@ -202,18 +204,18 @@
 				</itemlayout>
 				<focusedlayout height="90" width="470">
 					<control type="image">
-						<right>0</right>
-						<bottom>0</bottom>
+						<width>470</width>
+						<height>90</height>
 						<texture colordiffuse="button_focus">lists/focus.png</texture>
 						<animation effect="fade" start="100" end="50" time="40" condition="!Control.HasFocus(9000)">Conditional</animation>
 					</control>
 					<control type="label">
-						<left>30</left>
-						<right>30</right>
-						<bottom>0</bottom>
-						<label>$INFO[ListItem.Label]</label>
+						<textoffsetx>30</textoffsetx>
+						<width>470</width>
+						<height>90</height>
 						<font>font37</font>
 						<aligny>center</aligny>
+						<label>$INFO[ListItem.Label]</label>
 					</control>
 				</focusedlayout>
 				<content>

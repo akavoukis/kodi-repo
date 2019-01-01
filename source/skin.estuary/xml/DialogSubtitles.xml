@@ -92,6 +92,7 @@
 					<onup>120</onup>
 					<ondown>120</ondown>
 					<pagecontrol>73</pagecontrol>
+					<pagecontrol>121</pagecontrol>
 					<scrolltime>200</scrolltime>
 					<itemlayout width="920" height="100">
 						<control type="image">
@@ -149,8 +150,8 @@
 					<focusedlayout width="920" height="100">
 						<control type="image">
 							<left>0</left>
-							<right>0</right>
-							<bottom>0</bottom>
+							<width>920</width>
+							<height>100</height>
 							<texture colordiffuse="button_focus">lists/focus.png</texture>
 							<visible>Control.HasFocus(120)</visible>
 						</control>
